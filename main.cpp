@@ -10,8 +10,8 @@ using namespace std;
 
 
 // --- FILE PATHS ---
-static string airportsCSV = "/Users/kwakuosafo/Desktop/Kwaku/Ashesi/SECOND YEAR/Intermediate Computer Programming/C++/Project/Search Project/airports.csv";
-static string routesCSV = "/Users/kwakuosafo/Desktop/Kwaku/Ashesi/SECOND YEAR/Intermediate Computer Programming/C++/Project/Search Project/routes.csv";
+static string airportsCSV = "airports.csv";
+static string routesCSV = "routes.csv";
 
 
 // --- STREAM DECLARATIONS ---
@@ -79,7 +79,7 @@ int main() {
 
     createRoutesMap();
 
-    getStartCityAndDestinationCity("/Users/kwakuosafo/Desktop/Kwaku/Ashesi/SECOND YEAR/Intermediate Computer Programming/C++/Project/Search Project/input.txt");
+    getStartCityAndDestinationCity("input.txt");
 
     search();
 
